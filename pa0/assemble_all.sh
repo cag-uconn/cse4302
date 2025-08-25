@@ -11,7 +11,7 @@ if [ ! -d assembled_tests ]; then
 	mkdir assembled_tests
 fi
 
-if [ ! -f ../../assembler/assembler ]; then
+if [ ! -f ../assembler/assembler ]; then
 	echo "Error: Assembler is not compiled."
 	exit
 fi
@@ -19,6 +19,6 @@ fi
 for test in unittests/*.asm; do
 	echo "Assembling test \"$test\"..."
 	testname=$(basename $test .asm)
-	../../assembler/assembler $test assembled_tests/$testname.out > /dev/null 2>&1
+	../assembler/assembler $test assembled_tests/$testname.out > /dev/null 2>&1
 done
 echo "Done!"
