@@ -1,0 +1,3900 @@
+--------------------------------------- assembled_tests/IType_ADD.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00128293
+memory[1] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 2
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000001        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000018
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/IType_ADD.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/IType_AND.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x0142f313
+memory[2] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 3
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000004        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000001C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/IType_AND.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/IType_LOAD.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x1002a283
+memory[1] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000014
+memory[257] = 0x0000001e
+memory[258] = 0x00000028
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 2
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000014        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000018
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000014
+Memory[257] = 0x0000001E
+Memory[258] = 0x00000028
+ 
+--------------------------------------- assembled_tests/IType_LOAD.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/IType_OR.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x0142e313
+memory[2] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 3
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x000003F7        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000001C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/IType_OR.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/IType_SLL.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x01429313
+memory[2] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 3
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x3E700000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000001C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/IType_SLL.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/IType_SLT.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x3e82a313
+memory[2] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 3
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000001        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000001C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/IType_SLT.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/IType_SRL.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x0012d313
+memory[2] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 3
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x000001F3        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000001C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/IType_SRL.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/IType_XOR.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x0142c313
+memory[2] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 3
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x000003F3        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000001C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/IType_XOR.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/RType_ADD.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00128293
+memory[1] = 0x006283b3
+memory[2] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 3
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000001        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000001        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000001C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/RType_ADD.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/RType_AND.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x85530313
+memory[2] = 0x0062f3b3
+memory[3] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 4
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0xFFFFF855        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000045        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000020
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/RType_AND.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/RType_OR.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x85530313
+memory[2] = 0x0062e3b3
+memory[3] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 4
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0xFFFFF855        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0xFFFFFBF7        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000020
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/RType_OR.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/RType_SLL.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x85530313
+memory[2] = 0x006293b3
+memory[3] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 4
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0xFFFFF855        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x7CE00000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000020
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/RType_SLL.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/RType_SLT.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x85530313
+memory[2] = 0x0062a3b3
+memory[3] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 4
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0xFFFFF855        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000001        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000020
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/RType_SLT.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/RType_SRL.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x00230313
+memory[2] = 0x0062d3b3
+memory[3] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 4
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000002        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x000000F9        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000020
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/RType_SRL.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/RType_SUB.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x85530313
+memory[2] = 0x406283b3
+memory[3] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 4
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0xFFFFF855        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000B92        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000020
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/RType_SUB.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/RType_XOR.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e728293
+memory[1] = 0x85530313
+memory[2] = 0x0062c3b3
+memory[3] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 4
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x000003E7        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0xFFFFF855        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0xFFFFFBB2        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000020
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/RType_XOR.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/SType_STORE.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x1002a283
+memory[1] = 0x1053a0a3
+memory[2] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000014
+memory[257] = 0x00000000
+memory[258] = 0x00000000
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 3
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000014        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000001C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000014
+Memory[257] = 0x00000014
+ 
+--------------------------------------- assembled_tests/SType_STORE.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/UType_LUI.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x003e7337
+memory[1] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000007e7
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 2
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x003E7000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000018
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000007E7
+ 
+--------------------------------------- assembled_tests/UType_LUI.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/array_adder.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00a00c93
+memory[1] = 0x1014a903
+memory[2] = 0x1114a983
+memory[3] = 0x00148493
+memory[4] = 0x1014aa03
+memory[5] = 0x1114aa83
+memory[6] = 0x00148493
+memory[7] = 0x01390b33
+memory[8] = 0x015a0bb3
+memory[9] = 0x116c2023
+memory[10] = 0x001c0c13
+memory[11] = 0x117c2023
+memory[12] = 0x001c0c13
+memory[13] = 0xfd9498e3
+memory[14] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x0000000a
+memory[257] = 0x0000000a
+memory[258] = 0x00000014
+memory[259] = 0x0000001e
+memory[260] = 0x00000028
+memory[261] = 0x00000032
+memory[262] = 0x0000003c
+memory[263] = 0x00000046
+memory[264] = 0x00000050
+memory[265] = 0x0000005a
+memory[266] = 0x0000005a
+memory[267] = 0x00000064
+memory[268] = 0x00000003
+memory[269] = 0x00000003
+memory[270] = 0x00000003
+memory[271] = 0x00000003
+memory[272] = 0x00000004
+memory[273] = 0x0000000b
+memory[274] = 0x0000000a
+memory[275] = 0x00000014
+memory[276] = 0x0000001e
+memory[277] = 0x00000028
+memory[278] = 0x00000032
+memory[279] = 0x0000003c
+memory[280] = 0x00000046
+memory[281] = 0x00000050
+memory[282] = 0x0000005a
+memory[283] = 0x00000064
+memory[284] = 0x00000003
+memory[285] = 0x00000003
+memory[286] = 0x00000003
+memory[287] = 0x00000003
+memory[288] = 0x00000003
+memory[289] = 0x00000005
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 67
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x0000000A
+x1      ra       0x00000000        x9      s1       0x0000000A        x17     a7       0x00000000        x25     s9       0x0000000A
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x0000005A        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000050        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x0000005A        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x0000005A        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x000000AA        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x000000B4        x31     t6       0x00000000
+N/A     pc       0x0000004C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000015
+Memory[257] = 0x0000001E
+Memory[258] = 0x00000032
+Memory[259] = 0x00000046
+Memory[260] = 0x0000005A
+Memory[261] = 0x0000006E
+Memory[262] = 0x00000082
+Memory[263] = 0x00000096
+Memory[264] = 0x000000AA
+Memory[265] = 0x000000B4
+Memory[266] = 0x0000005A
+Memory[267] = 0x00000064
+Memory[268] = 0x00000003
+Memory[269] = 0x00000003
+Memory[270] = 0x00000003
+Memory[271] = 0x00000003
+Memory[272] = 0x00000004
+Memory[273] = 0x0000000B
+Memory[274] = 0x0000000A
+Memory[275] = 0x00000014
+Memory[276] = 0x0000001E
+Memory[277] = 0x00000028
+Memory[278] = 0x00000032
+Memory[279] = 0x0000003C
+Memory[280] = 0x00000046
+Memory[281] = 0x00000050
+Memory[282] = 0x0000005A
+Memory[283] = 0x00000064
+Memory[284] = 0x00000003
+Memory[285] = 0x00000003
+Memory[286] = 0x00000003
+Memory[287] = 0x00000003
+Memory[288] = 0x00000003
+Memory[289] = 0x00000005
+ 
+--------------------------------------- assembled_tests/array_adder.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/basics.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x12300413
+memory[1] = 0x45600493
+memory[2] = 0x00940933
+memory[3] = 0x408489b3
+memory[4] = 0x0129ea33
+memory[5] = 0x001a5a93
+memory[6] = 0x014afb33
+memory[7] = 0x0089cbb3
+memory[8] = 0x003b9c13
+memory[9] = 0xfff9cc93
+memory[10] = 0x0169ad33
+memory[11] = 0x01a412b3
+memory[12] = 0x01a4d333
+memory[13] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000014b6
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 14
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000123        x16     a6       0x00000000        x24     s8       0x00001080
+x1      ra       0x00000000        x9      s1       0x00000456        x17     a7       0x00000000        x25     s9       0xFFFFFCCC
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000579        x26     s10      0x00000001
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000333        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x0000077B        x28     t3       0x00000000
+x5      t0       0x00000246        x13     a3       0x00000000        x21     s5       0x000003BD        x29     t4       0x00000000
+x6      t1       0x0000022B        x14     a4       0x00000000        x22     s6       0x00000339        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000210        x31     t6       0x00000000
+N/A     pc       0x00000048
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000014B6
+ 
+--------------------------------------- assembled_tests/basics.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/beq_test.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00100413
+memory[1] = 0x00800493
+memory[2] = 0x00000933
+memory[3] = 0x00940863
+memory[4] = 0x00141413
+memory[5] = 0x00190913
+memory[6] = 0xfe000ae3
+memory[7] = 0x11202023
+memory[8] = 0x108020a3
+memory[9] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x0000000a
+memory[257] = 0x00000020
+memory[258] = 0x00000002
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 19
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000008        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000008        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000003        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000038
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000003
+Memory[257] = 0x00000008
+Memory[258] = 0x00000002
+ 
+--------------------------------------- assembled_tests/beq_test.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/binary_search.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x10000293
+memory[1] = 0x00800313
+memory[2] = 0x00700393
+memory[3] = 0x10b00d93
+memory[4] = 0x00000e13
+memory[5] = 0x00030eb3
+memory[6] = 0x01ce8f33
+memory[7] = 0x001f5f13
+memory[8] = 0x01e00fb3
+memory[9] = 0x005f8bb3
+memory[10] = 0x000bac03
+memory[11] = 0x007c0c63
+memory[12] = 0x007c4663
+memory[13] = 0x01f00eb3
+memory[14] = 0xfe1ff06f
+memory[15] = 0x01f00e33
+memory[16] = 0xfd9ff06f
+memory[17] = 0x018da023
+memory[18] = 0x0040006f
+memory[19] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000001
+memory[257] = 0x00000003
+memory[258] = 0x00000005
+memory[259] = 0x00000007
+memory[260] = 0x00000009
+memory[261] = 0x0000000b
+memory[262] = 0x0000000d
+memory[263] = 0x0000000f
+memory[264] = 0x00000008
+memory[265] = 0x00000007
+memory[266] = 0x0000000b
+memory[267] = 0x00000000
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 33
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000007
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x0000010B
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000002
+x5      t0       0x00000100        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000004
+x6      t1       0x00000008        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000003
+x7      t2       0x00000007        x15     a5       0x00000000        x23     s7       0x00000103        x31     t6       0x00000003
+N/A     pc       0x00000060
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000001
+Memory[257] = 0x00000003
+Memory[258] = 0x00000005
+Memory[259] = 0x00000007
+Memory[260] = 0x00000009
+Memory[261] = 0x0000000B
+Memory[262] = 0x0000000D
+Memory[263] = 0x0000000F
+Memory[264] = 0x00000008
+Memory[265] = 0x00000007
+Memory[266] = 0x0000000B
+Memory[267] = 0x00000007
+ 
+--------------------------------------- assembled_tests/binary_search.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/blt_bge_test.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00000433
+memory[1] = 0x00500493
+memory[2] = 0x00140413
+memory[3] = 0xfe944ee3
+memory[4] = 0x00040d33
+memory[5] = 0x00940433
+memory[6] = 0x409404b3
+memory[7] = 0xfff40413
+memory[8] = 0xfe945ee3
+memory[9] = 0x00040db3
+memory[10] = 0x11a02023
+memory[11] = 0x11b020a3
+memory[12] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x0000000a
+memory[257] = 0x00000020
+memory[258] = 0x00000002
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 31
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000004        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000005        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000005
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000004
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000044
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000005
+Memory[257] = 0x00000004
+Memory[258] = 0x00000002
+ 
+--------------------------------------- assembled_tests/blt_bge_test.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/bne_test.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x08000437
+memory[1] = 0xfff00493
+memory[2] = 0x00100d93
+memory[3] = 0x00000933
+memory[4] = 0x0084a2b3
+memory[5] = 0x00029863
+memory[6] = 0x0014d493
+memory[7] = 0x00190913
+memory[8] = 0xffb018e3
+memory[9] = 0x11202023
+memory[10] = 0x108020a3
+memory[11] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000008
+memory[257] = 0x00000016
+memory[258] = 0x0000002a
+memory[259] = 0x00000044
+memory[260] = 0x00000064
+memory[261] = 0x0000008a
+memory[262] = 0x000000b6
+memory[263] = 0x000000e8
+memory[264] = 0x00000120
+memory[265] = 0x0000015e
+memory[266] = 0x000001a2
+memory[267] = 0x000001ec
+memory[268] = 0x0000023c
+memory[269] = 0x00000292
+memory[270] = 0x000002ee
+memory[271] = 0x00000350
+memory[272] = 0x000003b8
+memory[273] = 0x00000426
+memory[274] = 0x0000049a
+memory[275] = 0x00000514
+memory[276] = 0x00000594
+memory[277] = 0x0000061a
+memory[278] = 0x000006a6
+memory[279] = 0x00000738
+memory[280] = 0x000007d0
+memory[281] = 0x0000086e
+memory[282] = 0x00000912
+memory[283] = 0x000009bc
+memory[284] = 0x00000a6c
+memory[285] = 0x00000b22
+memory[286] = 0x00000bde
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 34
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x08000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x07FFFFFF        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000005        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000001
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000001        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000040
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000005
+Memory[257] = 0x08000000
+Memory[258] = 0x0000002A
+Memory[259] = 0x00000044
+Memory[260] = 0x00000064
+Memory[261] = 0x0000008A
+Memory[262] = 0x000000B6
+Memory[263] = 0x000000E8
+Memory[264] = 0x00000120
+Memory[265] = 0x0000015E
+Memory[266] = 0x000001A2
+Memory[267] = 0x000001EC
+Memory[268] = 0x0000023C
+Memory[269] = 0x00000292
+Memory[270] = 0x000002EE
+Memory[271] = 0x00000350
+Memory[272] = 0x000003B8
+Memory[273] = 0x00000426
+Memory[274] = 0x0000049A
+Memory[275] = 0x00000514
+Memory[276] = 0x00000594
+Memory[277] = 0x0000061A
+Memory[278] = 0x000006A6
+Memory[279] = 0x00000738
+Memory[280] = 0x000007D0
+Memory[281] = 0x0000086E
+Memory[282] = 0x00000912
+Memory[283] = 0x000009BC
+Memory[284] = 0x00000A6C
+Memory[285] = 0x00000B22
+Memory[286] = 0x00000BDE
+ 
+--------------------------------------- assembled_tests/bne_test.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/colliding_cache.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x01000413
+memory[1] = 0x000004b3
+memory[2] = 0x1004a903
+memory[3] = 0x1014a983
+memory[4] = 0x1024aa03
+memory[5] = 0x1034aa83
+memory[6] = 0x008484b3
+memory[7] = 0x1124a023
+memory[8] = 0x1134a0a3
+memory[9] = 0x1144a123
+memory[10] = 0x1154a1a3
+memory[11] = 0x008484b3
+memory[12] = 0x1154a023
+memory[13] = 0x1144a0a3
+memory[14] = 0x1134a123
+memory[15] = 0x1124a1a3
+memory[16] = 0x008484b3
+memory[17] = 0x10002b03
+memory[18] = 0x10102b83
+memory[19] = 0x10202c03
+memory[20] = 0x10302c83
+memory[21] = 0x1184a023
+memory[22] = 0x1194a0a3
+memory[23] = 0x1164a123
+memory[24] = 0x1174a1a3
+memory[25] = 0x008484b3
+memory[26] = 0x019902b3
+memory[27] = 0x01898333
+memory[28] = 0x017a03b3
+memory[29] = 0x016a8e33
+memory[30] = 0x1054a023
+memory[31] = 0x1064a0a3
+memory[32] = 0x1074a123
+memory[33] = 0x11c4a1a3
+memory[34] = 0x10002a83
+memory[35] = 0x10102903
+memory[36] = 0x10202983
+memory[37] = 0x10302a03
+memory[38] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x0000000a
+memory[257] = 0x0000000b
+memory[258] = 0x0000000c
+memory[259] = 0x0000000d
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 39
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000010        x16     a6       0x00000000        x24     s8       0x0000000C
+x1      ra       0x00000000        x9      s1       0x00000040        x17     a7       0x00000000        x25     s9       0x0000000D
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x0000000B        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x0000000C        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x0000000D        x28     t3       0x00000017
+x5      t0       0x00000017        x13     a3       0x00000000        x21     s5       0x0000000A        x29     t4       0x00000000
+x6      t1       0x00000017        x14     a4       0x00000000        x22     s6       0x0000000A        x30     t5       0x00000000
+x7      t2       0x00000017        x15     a5       0x00000000        x23     s7       0x0000000B        x31     t6       0x00000000
+N/A     pc       0x000000AC
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x0000000A
+Memory[257] = 0x0000000B
+Memory[258] = 0x0000000C
+Memory[259] = 0x0000000D
+Memory[272] = 0x0000000A
+Memory[273] = 0x0000000B
+Memory[274] = 0x0000000C
+Memory[275] = 0x0000000D
+Memory[288] = 0x0000000D
+Memory[289] = 0x0000000C
+Memory[290] = 0x0000000B
+Memory[291] = 0x0000000A
+Memory[304] = 0x0000000C
+Memory[305] = 0x0000000D
+Memory[306] = 0x0000000A
+Memory[307] = 0x0000000B
+Memory[320] = 0x00000017
+Memory[321] = 0x00000017
+Memory[322] = 0x00000017
+Memory[323] = 0x00000017
+ 
+--------------------------------------- assembled_tests/colliding_cache.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/correlation.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x3e800593
+memory[1] = 0x00a00613
+memory[2] = 0x00b00693
+memory[3] = 0x00c00713
+memory[4] = 0x5dc00513
+memory[5] = 0x084000ef
+memory[6] = 0x00050933
+memory[7] = 0x1f400513
+memory[8] = 0x078000ef
+memory[9] = 0x000509b3
+memory[10] = 0x57800513
+memory[11] = 0x06c000ef
+memory[12] = 0x00050a33
+memory[13] = 0x25800513
+memory[14] = 0x060000ef
+memory[15] = 0x00050ab3
+memory[16] = 0x51400513
+memory[17] = 0x054000ef
+memory[18] = 0x00050b33
+memory[19] = 0x2bc00513
+memory[20] = 0x048000ef
+memory[21] = 0x00050bb3
+memory[22] = 0x4b000513
+memory[23] = 0x03c000ef
+memory[24] = 0x00050c33
+memory[25] = 0x32000513
+memory[26] = 0x030000ef
+memory[27] = 0x00050cb3
+memory[28] = 0x44c00513
+memory[29] = 0x024000ef
+memory[30] = 0x00050c33
+memory[31] = 0x38400513
+memory[32] = 0x018000ef
+memory[33] = 0x00050cb3
+memory[34] = 0x3e800513
+memory[35] = 0x00c000ef
+memory[36] = 0x00050c33
+memory[37] = 0x0440006f
+memory[38] = 0x000002b3
+memory[39] = 0x00b55463
+memory[40] = 0x00a00293
+memory[41] = 0x00c29313
+memory[42] = 0x00c29463
+memory[43] = 0x00b00293
+memory[44] = 0x00829393
+memory[45] = 0x00d29463
+memory[46] = 0x00c00293
+memory[47] = 0x00429e13
+memory[48] = 0x00e29463
+memory[49] = 0x00d00293
+memory[50] = 0x0062eeb3
+memory[51] = 0x01c3ef33
+memory[52] = 0x01eee533
+memory[53] = 0x00008067
+memory[54] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000014b6
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 191
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000090        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x0000ABCD
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x000003E8        x19     s3       0x0000ABCD        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x0000000A        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x0000000B        x21     s5       0x0000ABCD        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x0000000C        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x0000ABCD        x31     t6       0x00000000
+N/A     pc       0x000000EC
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x000010CE
+Memory[257] = 0x0000151A
+Memory[258] = 0x000014B6
+ 
+--------------------------------------- assembled_tests/correlation.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/dependant_1.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x12300413
+memory[1] = 0x00000013
+memory[2] = 0x00000013
+memory[3] = 0x00000013
+memory[4] = 0x00000013
+memory[5] = 0x0b26e937
+memory[6] = 0x00a91993
+memory[7] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000014
+memory[257] = 0x0000151a
+memory[258] = 0x000014b6
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 8
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000123        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x0B26E000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x9B800000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000030
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000014
+Memory[257] = 0x0000151A
+Memory[258] = 0x000014B6
+ 
+--------------------------------------- assembled_tests/dependant_1.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/dependant_2.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x12300413
+memory[1] = 0x45600493
+memory[2] = 0x00000013
+memory[3] = 0x00000013
+memory[4] = 0x00000013
+memory[5] = 0x00000013
+memory[6] = 0x00848ab3
+memory[7] = 0x009479b3
+memory[8] = 0x00aacb13
+memory[9] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000014
+memory[257] = 0x0000151a
+memory[258] = 0x000014b6
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 10
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000123        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000456        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000002        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000579        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000573        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000038
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000014
+Memory[257] = 0x0000151A
+Memory[258] = 0x000014B6
+ 
+--------------------------------------- assembled_tests/dependant_2.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/dependant_3.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x12300413
+memory[1] = 0x45600493
+memory[2] = 0x00000013
+memory[3] = 0x00000013
+memory[4] = 0x00000013
+memory[5] = 0x00000013
+memory[6] = 0x00a4c513
+memory[7] = 0x408485b3
+memory[8] = 0x109ba023
+memory[9] = 0x00855633
+memory[10] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000014
+memory[257] = 0x0000151a
+memory[258] = 0x000014b6
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 11
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000123        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000456        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x0000045C        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000333        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x0000008B        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000003C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000456
+Memory[257] = 0x0000151A
+Memory[258] = 0x000014B6
+ 
+--------------------------------------- assembled_tests/dependant_3.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/dependant_4.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x12300413
+memory[1] = 0x45600493
+memory[2] = 0x00000013
+memory[3] = 0x00000013
+memory[4] = 0x00000013
+memory[5] = 0x00000013
+memory[6] = 0x1005a603
+memory[7] = 0x0084d9b3
+memory[8] = 0x2e241a13
+memory[9] = 0x00199ab7
+memory[10] = 0x008616b3
+memory[11] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000014
+memory[257] = 0x0000151a
+memory[258] = 0x000014b6
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 12
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000123        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000456        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x0000008A        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000014        x20     s4       0x0000048C        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x000000A0        x21     s5       0x00199000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000040
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000014
+Memory[257] = 0x0000151A
+Memory[258] = 0x000014B6
+ 
+--------------------------------------- assembled_tests/dependant_4.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/derivative.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x01f00413
+memory[1] = 0x000004b3
+memory[2] = 0x1004a983
+memory[3] = 0x1014aa03
+memory[4] = 0x412a0ab3
+memory[5] = 0x001ada93
+memory[6] = 0x1354a023
+memory[7] = 0x00098933
+memory[8] = 0x000a09b3
+memory[9] = 0x00148493
+memory[10] = 0xfe84c2e3
+memory[11] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000008
+memory[257] = 0x00000016
+memory[258] = 0x0000002a
+memory[259] = 0x00000044
+memory[260] = 0x00000064
+memory[261] = 0x0000008a
+memory[262] = 0x000000b6
+memory[263] = 0x000000e8
+memory[264] = 0x00000120
+memory[265] = 0x0000015e
+memory[266] = 0x000001a2
+memory[267] = 0x000001ec
+memory[268] = 0x0000023c
+memory[269] = 0x00000292
+memory[270] = 0x000002ee
+memory[271] = 0x00000350
+memory[272] = 0x000003b8
+memory[273] = 0x00000426
+memory[274] = 0x0000049a
+memory[275] = 0x00000514
+memory[276] = 0x00000594
+memory[277] = 0x0000061a
+memory[278] = 0x000006a6
+memory[279] = 0x00000738
+memory[280] = 0x000007d0
+memory[281] = 0x0000086e
+memory[282] = 0x00000912
+memory[283] = 0x000009bc
+memory[284] = 0x00000a6c
+memory[285] = 0x00000b22
+memory[286] = 0x00000bde
+memory[287] = 0x00000ca0
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 252
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x0000001F        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x0000001F        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000BDE        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000CA0        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000CA0        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x000000BF        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000040
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000008
+Memory[257] = 0x00000016
+Memory[258] = 0x0000002A
+Memory[259] = 0x00000044
+Memory[260] = 0x00000064
+Memory[261] = 0x0000008A
+Memory[262] = 0x000000B6
+Memory[263] = 0x000000E8
+Memory[264] = 0x00000120
+Memory[265] = 0x0000015E
+Memory[266] = 0x000001A2
+Memory[267] = 0x000001EC
+Memory[268] = 0x0000023C
+Memory[269] = 0x00000292
+Memory[270] = 0x000002EE
+Memory[271] = 0x00000350
+Memory[272] = 0x000003B8
+Memory[273] = 0x00000426
+Memory[274] = 0x0000049A
+Memory[275] = 0x00000514
+Memory[276] = 0x00000594
+Memory[277] = 0x0000061A
+Memory[278] = 0x000006A6
+Memory[279] = 0x00000738
+Memory[280] = 0x000007D0
+Memory[281] = 0x0000086E
+Memory[282] = 0x00000912
+Memory[283] = 0x000009BC
+Memory[284] = 0x00000A6C
+Memory[285] = 0x00000B22
+Memory[286] = 0x00000BDE
+Memory[287] = 0x00000CA0
+Memory[288] = 0x0000000B
+Memory[289] = 0x00000011
+Memory[290] = 0x00000017
+Memory[291] = 0x0000001D
+Memory[292] = 0x00000023
+Memory[293] = 0x00000029
+Memory[294] = 0x0000002F
+Memory[295] = 0x00000035
+Memory[296] = 0x0000003B
+Memory[297] = 0x00000041
+Memory[298] = 0x00000047
+Memory[299] = 0x0000004D
+Memory[300] = 0x00000053
+Memory[301] = 0x00000059
+Memory[302] = 0x0000005F
+Memory[303] = 0x00000065
+Memory[304] = 0x0000006B
+Memory[305] = 0x00000071
+Memory[306] = 0x00000077
+Memory[307] = 0x0000007D
+Memory[308] = 0x00000083
+Memory[309] = 0x00000089
+Memory[310] = 0x0000008F
+Memory[311] = 0x00000095
+Memory[312] = 0x0000009B
+Memory[313] = 0x000000A1
+Memory[314] = 0x000000A7
+Memory[315] = 0x000000AD
+Memory[316] = 0x000000B3
+Memory[317] = 0x000000B9
+Memory[318] = 0x000000BF
+ 
+--------------------------------------- assembled_tests/derivative.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/derivative_unrolled.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x01f00413
+memory[1] = 0x000004b3
+memory[2] = 0x1004a983
+memory[3] = 0x1014aa03
+memory[4] = 0x1024aa83
+memory[5] = 0x1034ab03
+memory[6] = 0x1044ab83
+memory[7] = 0x1054ac03
+memory[8] = 0x1064ac83
+memory[9] = 0x1074ad03
+memory[10] = 0x1084ad83
+memory[11] = 0x412a0933
+memory[12] = 0x413a89b3
+memory[13] = 0x414b0a33
+memory[14] = 0x415b8ab3
+memory[15] = 0x416c0b33
+memory[16] = 0x417c8bb3
+memory[17] = 0x418d0c33
+memory[18] = 0x419d8cb3
+memory[19] = 0x00848493
+memory[20] = 0x00195913
+memory[21] = 0x0019d993
+memory[22] = 0x001a5a13
+memory[23] = 0x001ada93
+memory[24] = 0x001b5b13
+memory[25] = 0x001bdb93
+memory[26] = 0x001c5c13
+memory[27] = 0x001cdc93
+memory[28] = 0x1124ac23
+memory[29] = 0x1134aca3
+memory[30] = 0x1144ad23
+memory[31] = 0x1154ada3
+memory[32] = 0x1164ae23
+memory[33] = 0x1174aea3
+memory[34] = 0x1184af23
+memory[35] = 0x1194afa3
+memory[36] = 0x000d0933
+memory[37] = 0x000d89b3
+memory[38] = 0xf684cae3
+memory[39] = 0x1004afa3
+memory[40] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000008
+memory[257] = 0x00000016
+memory[258] = 0x0000002a
+memory[259] = 0x00000044
+memory[260] = 0x00000064
+memory[261] = 0x0000008a
+memory[262] = 0x000000b6
+memory[263] = 0x000000e8
+memory[264] = 0x00000120
+memory[265] = 0x0000015e
+memory[266] = 0x000001a2
+memory[267] = 0x000001ec
+memory[268] = 0x0000023c
+memory[269] = 0x00000292
+memory[270] = 0x000002ee
+memory[271] = 0x00000350
+memory[272] = 0x000003b8
+memory[273] = 0x00000426
+memory[274] = 0x0000049a
+memory[275] = 0x00000514
+memory[276] = 0x00000594
+memory[277] = 0x0000061a
+memory[278] = 0x000006a6
+memory[279] = 0x00000738
+memory[280] = 0x000007d0
+memory[281] = 0x0000086e
+memory[282] = 0x00000912
+memory[283] = 0x000009bc
+memory[284] = 0x00000a6c
+memory[285] = 0x00000b22
+memory[286] = 0x00000bde
+memory[287] = 0x00000ca0
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 149
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x0000001F        x16     a6       0x00000000        x24     s8       0x000000BF
+x1      ra       0x00000000        x9      s1       0x00000020        x17     a7       0x00000000        x25     s9       0x7FFFFA16
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000CA0        x26     s10      0x00000CA0
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x0000000B        x27     s11      0x0000000B
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x000000A7        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x000000AD        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x000000B3        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x000000B9        x31     t6       0x00000000
+N/A     pc       0x000000B4
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000008
+Memory[257] = 0x00000016
+Memory[258] = 0x0000002A
+Memory[259] = 0x00000044
+Memory[260] = 0x00000064
+Memory[261] = 0x0000008A
+Memory[262] = 0x000000B6
+Memory[263] = 0x000000E8
+Memory[264] = 0x00000120
+Memory[265] = 0x0000015E
+Memory[266] = 0x000001A2
+Memory[267] = 0x000001EC
+Memory[268] = 0x0000023C
+Memory[269] = 0x00000292
+Memory[270] = 0x000002EE
+Memory[271] = 0x00000350
+Memory[272] = 0x000003B8
+Memory[273] = 0x00000426
+Memory[274] = 0x0000049A
+Memory[275] = 0x00000514
+Memory[276] = 0x00000594
+Memory[277] = 0x0000061A
+Memory[278] = 0x000006A6
+Memory[279] = 0x00000738
+Memory[280] = 0x000007D0
+Memory[281] = 0x0000086E
+Memory[282] = 0x00000912
+Memory[283] = 0x000009BC
+Memory[284] = 0x00000A6C
+Memory[285] = 0x00000B22
+Memory[286] = 0x00000BDE
+Memory[287] = 0x00000CA0
+Memory[288] = 0x0000000B
+Memory[289] = 0x00000011
+Memory[290] = 0x00000017
+Memory[291] = 0x0000001D
+Memory[292] = 0x00000023
+Memory[293] = 0x00000029
+Memory[294] = 0x0000002F
+Memory[295] = 0x00000035
+Memory[296] = 0x0000003B
+Memory[297] = 0x00000041
+Memory[298] = 0x00000047
+Memory[299] = 0x0000004D
+Memory[300] = 0x00000053
+Memory[301] = 0x00000059
+Memory[302] = 0x0000005F
+Memory[303] = 0x00000065
+Memory[304] = 0x0000006B
+Memory[305] = 0x00000071
+Memory[306] = 0x00000077
+Memory[307] = 0x0000007D
+Memory[308] = 0x00000083
+Memory[309] = 0x00000089
+Memory[310] = 0x0000008F
+Memory[311] = 0x00000095
+Memory[312] = 0x0000009B
+Memory[313] = 0x000000A1
+Memory[314] = 0x000000A7
+Memory[315] = 0x000000AD
+Memory[316] = 0x000000B3
+Memory[317] = 0x000000B9
+Memory[318] = 0x000000BF
+ 
+--------------------------------------- assembled_tests/derivative_unrolled.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/endian_reverse.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x10000413
+memory[1] = 0x00042503
+memory[2] = 0x00c000ef
+memory[3] = 0x00a420a3
+memory[4] = 0x00100013
+memory[5] = 0x000002b3
+memory[6] = 0x00000333
+memory[7] = 0x000003b3
+memory[8] = 0x00000e33
+memory[9] = 0x00000eb3
+memory[10] = 0x01800f13
+memory[11] = 0x00000fb3
+memory[12] = 0x405f0333
+memory[13] = 0x005553b3
+memory[14] = 0x0ff3fe13
+memory[15] = 0x006e1eb3
+memory[16] = 0x01dfefb3
+memory[17] = 0x00828293
+memory[18] = 0xfe5f54e3
+memory[19] = 0x000f8533
+memory[20] = 0x00008067
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x43022023
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 42
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000100        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x0000000C        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x23200243        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000043
+x5      t0       0x00000020        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000043
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000018
+x7      t2       0x00000043        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x23200243
+N/A     pc       0x00000024
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x43022023
+Memory[257] = 0x23200243
+ 
+--------------------------------------- assembled_tests/endian_reverse.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/fibonacci.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00a00f93
+memory[1] = 0x00000313
+memory[2] = 0x00100393
+memory[3] = 0x0040006f
+memory[4] = 0x00638e33
+memory[5] = 0x00700333
+memory[6] = 0x01c003b3
+memory[7] = 0x001f0f13
+memory[8] = 0xffff18e3
+memory[9] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x0000000a
+memory[257] = 0x0000000a
+memory[258] = 0x00000014
+memory[259] = 0x0000001e
+memory[260] = 0x00000028
+memory[261] = 0x00000032
+memory[262] = 0x0000003c
+memory[263] = 0x00000046
+memory[264] = 0x00000050
+memory[265] = 0x0000005a
+memory[266] = 0x00000064
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 55
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000059
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000037        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x0000000A
+x7      t2       0x00000059        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x0000000A
+N/A     pc       0x00000038
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x0000000A
+Memory[257] = 0x0000000A
+Memory[258] = 0x00000014
+Memory[259] = 0x0000001E
+Memory[260] = 0x00000028
+Memory[261] = 0x00000032
+Memory[262] = 0x0000003C
+Memory[263] = 0x00000046
+Memory[264] = 0x00000050
+Memory[265] = 0x0000005A
+Memory[266] = 0x00000064
+ 
+--------------------------------------- assembled_tests/fibonacci.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/jal_no_link.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x000002b3
+memory[1] = 0x000003b3
+memory[2] = 0x00000e33
+memory[3] = 0x00000eb3
+memory[4] = 0x0140006f
+memory[5] = 0x1003a583
+memory[6] = 0x00138393
+memory[7] = 0x1003a603
+memory[8] = 0x0100006f
+memory[9] = 0x00000f33
+memory[10] = 0x00000fb3
+memory[11] = 0xfe9ff06f
+memory[12] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000002
+memory[257] = 0x0000000a
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 13
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000002        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x0000000A        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000001        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000044
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000002
+Memory[257] = 0x0000000A
+ 
+--------------------------------------- assembled_tests/jal_no_link.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/jal_w_link.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00200613
+memory[1] = 0x00300693
+memory[2] = 0x00400713
+memory[3] = 0x00500793
+memory[4] = 0x00c000ef
+memory[5] = 0x00050433
+memory[6] = 0x00100013
+memory[7] = 0x00d602b3
+memory[8] = 0x00f70333
+memory[9] = 0x40628433
+memory[10] = 0x00040533
+memory[11] = 0x00008067
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x0000000a
+memory[257] = 0x0000000a
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 12
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0xFFFFFFFC        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000014        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0xFFFFFFFC        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000002        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000005        x13     a3       0x00000003        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000009        x14     a4       0x00000004        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000005        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000002C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x0000000A
+Memory[257] = 0x0000000A
+ 
+--------------------------------------- assembled_tests/jal_w_link.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/jalr_test.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00200513
+memory[1] = 0x00300593
+memory[2] = 0x00400613
+memory[3] = 0x00500693
+memory[4] = 0x02400e93
+memory[5] = 0x000e80e7
+memory[6] = 0x00100013
+memory[7] = 0x00050433
+memory[8] = 0x03800067
+memory[9] = 0x00b502b3
+memory[10] = 0x00d60333
+memory[11] = 0x40628433
+memory[12] = 0x00040533
+memory[13] = 0x00408067
+memory[14] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x0000000a
+memory[257] = 0x0000000a
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 14
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0xFFFFFFFC        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000018        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0xFFFFFFFC        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000003        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000004        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000005        x13     a3       0x00000005        x21     s5       0x00000000        x29     t4       0x00000024
+x6      t1       0x00000009        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000004C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x0000000A
+Memory[257] = 0x0000000A
+ 
+--------------------------------------- assembled_tests/jalr_test.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/loop_ilp1.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x10052403
+memory[1] = 0x00240493
+memory[2] = 0x00340913
+memory[3] = 0x00440993
+memory[4] = 0x109521a3
+memory[5] = 0x11252223
+memory[6] = 0x113522a3
+memory[7] = 0x10152403
+memory[8] = 0x00240493
+memory[9] = 0x00340913
+memory[10] = 0x00440993
+memory[11] = 0x10952323
+memory[12] = 0x112523a3
+memory[13] = 0x11352423
+memory[14] = 0x10252403
+memory[15] = 0x00240493
+memory[16] = 0x00340913
+memory[17] = 0x00440993
+memory[18] = 0x109524a3
+memory[19] = 0x11252523
+memory[20] = 0x113525a3
+memory[21] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x0000000a
+memory[257] = 0x00000014
+memory[258] = 0x0000001e
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 22
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x0000001E        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000020        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000021        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000022        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000068
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x0000000A
+Memory[257] = 0x00000014
+Memory[258] = 0x0000001E
+Memory[259] = 0x0000000C
+Memory[260] = 0x0000000D
+Memory[261] = 0x0000000E
+Memory[262] = 0x00000016
+Memory[263] = 0x00000017
+Memory[264] = 0x00000018
+Memory[265] = 0x00000020
+Memory[266] = 0x00000021
+Memory[267] = 0x00000022
+ 
+--------------------------------------- assembled_tests/loop_ilp1.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/loop_ilp2.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x10052403
+memory[1] = 0x10152483
+memory[2] = 0x009402b3
+memory[3] = 0x10252903
+memory[4] = 0x10352983
+memory[5] = 0x01390333
+memory[6] = 0x006282b3
+memory[7] = 0x10452a03
+memory[8] = 0x10552a83
+memory[9] = 0x015a03b3
+memory[10] = 0x10652b03
+memory[11] = 0x10752b83
+memory[12] = 0x017b0e33
+memory[13] = 0x01c383b3
+memory[14] = 0x00728eb3
+memory[15] = 0x11d525a3
+memory[16] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x0000000a
+memory[257] = 0x00000014
+memory[258] = 0x0000001e
+memory[259] = 0x00000028
+memory[260] = 0x00000032
+memory[261] = 0x0000003c
+memory[262] = 0x00000046
+memory[263] = 0x00000050
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 17
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x0000000A        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000014        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x0000001E        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000028        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000032        x28     t3       0x00000096
+x5      t0       0x00000064        x13     a3       0x00000000        x21     s5       0x0000003C        x29     t4       0x00000168
+x6      t1       0x00000046        x14     a4       0x00000000        x22     s6       0x00000046        x30     t5       0x00000000
+x7      t2       0x00000104        x15     a5       0x00000000        x23     s7       0x00000050        x31     t6       0x00000000
+N/A     pc       0x00000054
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x0000000A
+Memory[257] = 0x00000014
+Memory[258] = 0x0000001E
+Memory[259] = 0x00000028
+Memory[260] = 0x00000032
+Memory[261] = 0x0000003C
+Memory[262] = 0x00000046
+Memory[263] = 0x00000050
+Memory[267] = 0x00000168
+ 
+--------------------------------------- assembled_tests/loop_ilp2.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/lw_sw_test.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x000002b3
+memory[1] = 0x00000333
+memory[2] = 0x000003b3
+memory[3] = 0x00000e33
+memory[4] = 0x00000f33
+memory[5] = 0x00000fb3
+memory[6] = 0x1002a303
+memory[7] = 0x10032383
+memory[8] = 0x00730eb3
+memory[9] = 0x100eae03
+memory[10] = 0x01ce8eb3
+memory[11] = 0x11d2a023
+memory[12] = 0x1002a303
+memory[13] = 0x10032383
+memory[14] = 0x00730eb3
+memory[15] = 0x11d32023
+memory[16] = 0x10032f03
+memory[17] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000014
+memory[257] = 0x00000020
+memory[258] = 0x00000002
+memory[259] = 0x00000002
+memory[260] = 0x00000003
+memory[261] = 0x00000003
+memory[262] = 0x00000003
+memory[263] = 0x00000003
+memory[264] = 0x00000003
+memory[265] = 0x00000003
+memory[266] = 0x00000003
+memory[267] = 0x00000003
+memory[268] = 0x00000003
+memory[269] = 0x00000003
+memory[270] = 0x00000003
+memory[271] = 0x00000003
+memory[272] = 0x00000003
+memory[273] = 0x00000003
+memory[274] = 0x00000003
+memory[275] = 0x00000003
+memory[276] = 0x00000004
+memory[277] = 0x00000003
+memory[278] = 0x00000003
+memory[279] = 0x00000003
+memory[280] = 0x00000008
+memory[281] = 0x00000003
+memory[282] = 0x00000003
+memory[283] = 0x00000003
+memory[284] = 0x00000003
+memory[285] = 0x00000003
+memory[286] = 0x00000003
+memory[287] = 0x00000003
+memory[288] = 0x00000005
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 18
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000008
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000025
+x6      t1       0x00000020        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000025
+x7      t2       0x00000005        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000058
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000020
+Memory[257] = 0x00000020
+Memory[258] = 0x00000002
+Memory[259] = 0x00000002
+Memory[260] = 0x00000003
+Memory[261] = 0x00000003
+Memory[262] = 0x00000003
+Memory[263] = 0x00000003
+Memory[264] = 0x00000003
+Memory[265] = 0x00000003
+Memory[266] = 0x00000003
+Memory[267] = 0x00000003
+Memory[268] = 0x00000003
+Memory[269] = 0x00000003
+Memory[270] = 0x00000003
+Memory[271] = 0x00000003
+Memory[272] = 0x00000003
+Memory[273] = 0x00000003
+Memory[274] = 0x00000003
+Memory[275] = 0x00000003
+Memory[276] = 0x00000004
+Memory[277] = 0x00000003
+Memory[278] = 0x00000003
+Memory[279] = 0x00000003
+Memory[280] = 0x00000008
+Memory[281] = 0x00000003
+Memory[282] = 0x00000003
+Memory[283] = 0x00000003
+Memory[284] = 0x00000003
+Memory[285] = 0x00000003
+Memory[286] = 0x00000003
+Memory[287] = 0x00000003
+Memory[288] = 0x00000025
+ 
+--------------------------------------- assembled_tests/lw_sw_test.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/matrix_mul.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x10000293
+memory[1] = 0x10400313
+memory[2] = 0x10800393
+memory[3] = 0x00200d93
+memory[4] = 0x00000413
+memory[5] = 0x00000493
+memory[6] = 0x00000913
+memory[7] = 0x00000f93
+memory[8] = 0x00000693
+memory[9] = 0x00000513
+memory[10] = 0x00000ab3
+memory[11] = 0x00141a93
+memory[12] = 0x012a8ab3
+memory[13] = 0x005a8ab3
+memory[14] = 0x000aa583
+memory[15] = 0x00000b33
+memory[16] = 0x00191b13
+memory[17] = 0x009b0b33
+memory[18] = 0x006b0b33
+memory[19] = 0x000b2603
+memory[20] = 0x00b50533
+memory[21] = 0x00168693
+memory[22] = 0xfec69ce3
+memory[23] = 0x00af8fb3
+memory[24] = 0x00190913
+memory[25] = 0xfbb91ee3
+memory[26] = 0x00000bb3
+memory[27] = 0x00141b93
+memory[28] = 0x009b8bb3
+memory[29] = 0x007b8bb3
+memory[30] = 0x01fba023
+memory[31] = 0x00148493
+memory[32] = 0xf9b49ce3
+memory[33] = 0x00140413
+memory[34] = 0xf9b416e3
+memory[35] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000002
+memory[257] = 0x00000002
+memory[258] = 0x00000002
+memory[259] = 0x00000002
+memory[260] = 0x00000001
+memory[261] = 0x00000001
+memory[262] = 0x00000001
+memory[263] = 0x00000001
+memory[264] = 0x00000000
+memory[265] = 0x00000000
+memory[266] = 0x00000000
+memory[267] = 0x00000000
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 192
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000002        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000002        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000002        x18     s2       0x00000002        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000002        x19     s3       0x00000000        x27     s11      0x00000002
+x4      tp       0x00000000        x12     a2       0x00000001        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000100        x13     a3       0x00000001        x21     s5       0x00000103        x29     t4       0x00000000
+x6      t1       0x00000104        x14     a4       0x00000000        x22     s6       0x00000107        x30     t5       0x00000000
+x7      t2       0x00000108        x15     a5       0x00000000        x23     s7       0x0000010B        x31     t6       0x00000004
+N/A     pc       0x000000A0
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000002
+Memory[257] = 0x00000002
+Memory[258] = 0x00000002
+Memory[259] = 0x00000002
+Memory[260] = 0x00000001
+Memory[261] = 0x00000001
+Memory[262] = 0x00000001
+Memory[263] = 0x00000001
+Memory[264] = 0x00000004
+Memory[265] = 0x00000004
+Memory[266] = 0x00000004
+Memory[267] = 0x00000004
+ 
+--------------------------------------- assembled_tests/matrix_mul.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/matrix_mul_itr.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00a00d13
+memory[1] = 0x00000293
+memory[2] = 0x00000313
+memory[3] = 0x00000393
+memory[4] = 0x00000d93
+memory[5] = 0x00000493
+memory[6] = 0x001c8c93
+memory[7] = 0x10000293
+memory[8] = 0x10400313
+memory[9] = 0x10800393
+memory[10] = 0x00200d93
+memory[11] = 0x00000413
+memory[12] = 0x00000493
+memory[13] = 0x00000913
+memory[14] = 0x00000f93
+memory[15] = 0x00000693
+memory[16] = 0x00000513
+memory[17] = 0x00000ab3
+memory[18] = 0x00141a93
+memory[19] = 0x012a8ab3
+memory[20] = 0x005a8ab3
+memory[21] = 0x000aa583
+memory[22] = 0x00000b33
+memory[23] = 0x00191b13
+memory[24] = 0x009b0b33
+memory[25] = 0x006b0b33
+memory[26] = 0x000b2603
+memory[27] = 0x00b50533
+memory[28] = 0x00168693
+memory[29] = 0xfec69ce3
+memory[30] = 0x00af8fb3
+memory[31] = 0x00190913
+memory[32] = 0xfbb91ee3
+memory[33] = 0x00000bb3
+memory[34] = 0x00141b93
+memory[35] = 0x009b8bb3
+memory[36] = 0x007b8bb3
+memory[37] = 0x01fba023
+memory[38] = 0x00148493
+memory[39] = 0xf9b49ce3
+memory[40] = 0x00140413
+memory[41] = 0xf9b416e3
+memory[42] = 0xf5ac9ee3
+memory[43] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000001
+memory[257] = 0x00000001
+memory[258] = 0x00000001
+memory[259] = 0x00000001
+memory[260] = 0x00000002
+memory[261] = 0x00000002
+memory[262] = 0x00000002
+memory[263] = 0x00000002
+memory[264] = 0x00000000
+memory[265] = 0x00000000
+memory[266] = 0x00000000
+memory[267] = 0x00000000
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 2222
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000002        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000002        x17     a7       0x00000000        x25     s9       0x0000000A
+x2      sp       0x00000000        x10     a0       0x00000002        x18     s2       0x00000002        x26     s10      0x0000000A
+x3      gp       0x00000000        x11     a1       0x00000001        x19     s3       0x00000000        x27     s11      0x00000002
+x4      tp       0x00000000        x12     a2       0x00000002        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000100        x13     a3       0x00000002        x21     s5       0x00000103        x29     t4       0x00000000
+x6      t1       0x00000104        x14     a4       0x00000000        x22     s6       0x00000107        x30     t5       0x00000000
+x7      t2       0x00000108        x15     a5       0x00000000        x23     s7       0x0000010B        x31     t6       0x00000004
+N/A     pc       0x000000C0
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000001
+Memory[257] = 0x00000001
+Memory[258] = 0x00000001
+Memory[259] = 0x00000001
+Memory[260] = 0x00000002
+Memory[261] = 0x00000002
+Memory[262] = 0x00000002
+Memory[263] = 0x00000002
+Memory[264] = 0x00000004
+Memory[265] = 0x00000004
+Memory[266] = 0x00000004
+Memory[267] = 0x00000004
+ 
+--------------------------------------- assembled_tests/matrix_mul_itr.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/mul_dependant.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x12300413
+memory[1] = 0x45600493
+memory[2] = 0x00000013
+memory[3] = 0x00000013
+memory[4] = 0x00000013
+memory[5] = 0x00000013
+memory[6] = 0x009429b3
+memory[7] = 0x00a90913
+memory[8] = 0x0129ca33
+memory[9] = 0x00000013
+memory[10] = 0x00000013
+memory[11] = 0x00000013
+memory[12] = 0x00000013
+memory[13] = 0x013a5ab3
+memory[14] = 0x14d4fb13
+memory[15] = 0x016acbb3
+memory[16] = 0x06fbec13
+memory[17] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000014
+memory[257] = 0x0000151a
+memory[258] = 0x000014b6
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 18
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000123        x16     a6       0x00000000        x24     s8       0x0000006F
+x1      ra       0x00000000        x9      s1       0x00000456        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x0000000A        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000001        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x0000000B        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000005        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000044        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000041        x31     t6       0x00000000
+N/A     pc       0x00000058
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000014
+Memory[257] = 0x0000151A
+Memory[258] = 0x000014B6
+ 
+--------------------------------------- assembled_tests/mul_dependant.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/mul_dependant_2.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x12300413
+memory[1] = 0x45600493
+memory[2] = 0x00947ab3
+memory[3] = 0x0014db37
+memory[4] = 0x016acbb3
+memory[5] = 0x06fbec13
+memory[6] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000014
+memory[257] = 0x0000151a
+memory[258] = 0x000014b6
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 7
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000123        x16     a6       0x00000000        x24     s8       0x0014D06F
+x1      ra       0x00000000        x9      s1       0x00000456        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000002        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x0014D000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x0014D002        x31     t6       0x00000000
+N/A     pc       0x0000002C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000014
+Memory[257] = 0x0000151A
+Memory[258] = 0x000014B6
+ 
+--------------------------------------- assembled_tests/mul_dependant_2.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/multiplier.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x01400413
+memory[1] = 0x01700493
+memory[2] = 0x00000933
+memory[3] = 0x00100993
+memory[4] = 0x00849493
+memory[5] = 0x013472b3
+memory[6] = 0x00500463
+memory[7] = 0x00940433
+memory[8] = 0x00145413
+memory[9] = 0x00190913
+memory[10] = 0x00892293
+memory[11] = 0xfe0294e3
+memory[12] = 0x00040d33
+memory[13] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x0000000a
+memory[257] = 0x0000000a
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 57
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x000001CC        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00001700        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000008        x26     s10      0x000001CC
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000001        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000048
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x0000000A
+Memory[257] = 0x0000000A
+ 
+--------------------------------------- assembled_tests/multiplier.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/nested_loops.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00800413
+memory[1] = 0x00300493
+memory[2] = 0x10000913
+memory[3] = 0x000009b3
+memory[4] = 0x00000a33
+memory[5] = 0x014982b3
+memory[6] = 0x00592023
+memory[7] = 0x00190913
+memory[8] = 0x001a0a13
+memory[9] = 0xfe9a18e3
+memory[10] = 0x00198993
+memory[11] = 0xfe8992e3
+memory[12] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x0000151a
+memory[258] = 0x000014b6
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 149
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000008        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000003        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000118        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000008        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000003        x28     t3       0x00000000
+x5      t0       0x00000009        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x00000000        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000000        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000044
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[257] = 0x00000001
+Memory[258] = 0x00000002
+Memory[259] = 0x00000001
+Memory[260] = 0x00000002
+Memory[261] = 0x00000003
+Memory[262] = 0x00000002
+Memory[263] = 0x00000003
+Memory[264] = 0x00000004
+Memory[265] = 0x00000003
+Memory[266] = 0x00000004
+Memory[267] = 0x00000005
+Memory[268] = 0x00000004
+Memory[269] = 0x00000005
+Memory[270] = 0x00000006
+Memory[271] = 0x00000005
+Memory[272] = 0x00000006
+Memory[273] = 0x00000007
+Memory[274] = 0x00000006
+Memory[275] = 0x00000007
+Memory[276] = 0x00000008
+Memory[277] = 0x00000007
+Memory[278] = 0x00000008
+Memory[279] = 0x00000009
+ 
+--------------------------------------- assembled_tests/nested_loops.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/no_dep_test.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00a00293
+memory[1] = 0x01900313
+memory[2] = 0x01400393
+memory[3] = 0x01300e13
+memory[4] = 0x01200e93
+memory[5] = 0x10502023
+memory[6] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x000010ce
+memory[257] = 0x00000e52
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 7
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000000        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x00000000        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000013
+x5      t0       0x0000000A        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000012
+x6      t1       0x00000019        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x00000014        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x0000002C
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x0000000A
+Memory[257] = 0x00000E52
+ 
+--------------------------------------- assembled_tests/no_dep_test.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/twos_compliment.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0xfffff437
+memory[1] = 0xfff46413
+memory[2] = 0x7e700493
+memory[3] = 0x81900913
+memory[4] = 0x00894333
+memory[5] = 0x00130393
+memory[6] = 0x0093fe33
+memory[7] = 0x009e1463
+memory[8] = 0xaaa44413
+memory[9] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x0000000a
+memory[257] = 0x0000000a
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 10
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000555        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x000007E7        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0xFFFFF819        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x000007E7
+x5      t0       0x00000000        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000000
+x6      t1       0x000007E6        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x00000000
+x7      t2       0x000007E7        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000038
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x0000000A
+Memory[257] = 0x0000000A
+ 
+--------------------------------------- assembled_tests/twos_compliment.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
+--------------------------------------- assembled_tests/wordsearch.out (WITH FWD) (WITH OOO)---------------------------------------
+Pipeline Forwarding: Enabled
+OOO Execution: Enabled
+======================================
+=== BEGIN SIMULATOR INITIALIZATION ===
+======================================
+Initialized Registers
+
+Initialized Memory
+
+----------------------
+--- Section: .text ---
+----------------------
+memory[0] = 0x00f00293
+memory[1] = 0x00128313
+memory[2] = 0x00000433
+memory[3] = 0x0ff00493
+memory[4] = 0x000003b3
+memory[5] = 0x00138393
+memory[6] = 0x0063aeb3
+memory[7] = 0x000e8a63
+memory[8] = 0x1003af03
+memory[9] = 0x01e48463
+memory[10] = 0xfedff06f
+memory[11] = 0x00100413
+memory[12] = 0x00100013
+
+----------------------
+--- Section: .data ---
+----------------------
+memory[256] = 0x00000003
+memory[257] = 0x0000029f
+memory[258] = 0x0000151a
+memory[259] = 0x00000000
+memory[260] = 0x000010ce
+memory[261] = 0x0000000f
+memory[262] = 0x000000ff
+memory[263] = 0x0000151a
+memory[264] = 0x000014b6
+memory[265] = 0x00000003
+memory[266] = 0x00000017
+memory[267] = 0x00000001
+memory[268] = 0x000007e8
+====================================
+=== END SIMULATOR INITIALIZATION ===
+====================================
+
+Simulating...
+
+Finished simulation!
+
+TOTAL INSTRUCTIONS COMMITTED: 42
+TOTAL CYCLES SIMULATED: x
+AVERAGE CPI: x
+
+
+---------------------
+--- Register Dump ---
+---------------------
+Index   Name     Value             Index   Name     Value             Index   Name     Value             Index   Name     Value     
+-----   ----     -----             -----   ----     -----             -----   ----     -----             -----   ----     -----     
+x0      zero     0x00000001        x8      s0       0x00000001        x16     a6       0x00000000        x24     s8       0x00000000
+x1      ra       0x00000000        x9      s1       0x000000FF        x17     a7       0x00000000        x25     s9       0x00000000
+x2      sp       0x00000000        x10     a0       0x00000000        x18     s2       0x00000000        x26     s10      0x00000000
+x3      gp       0x00000000        x11     a1       0x00000000        x19     s3       0x00000000        x27     s11      0x00000000
+x4      tp       0x00000000        x12     a2       0x00000000        x20     s4       0x00000000        x28     t3       0x00000000
+x5      t0       0x0000000F        x13     a3       0x00000000        x21     s5       0x00000000        x29     t4       0x00000001
+x6      t1       0x00000010        x14     a4       0x00000000        x22     s6       0x00000000        x30     t5       0x000000FF
+x7      t2       0x00000006        x15     a5       0x00000000        x23     s7       0x00000000        x31     t6       0x00000000
+N/A     pc       0x00000044
+
+----------------------------
+--- Updated Memory Dump ---
+----------------------------
+Memory[256] = 0x00000003
+Memory[257] = 0x0000029F
+Memory[258] = 0x0000151A
+Memory[260] = 0x000010CE
+Memory[261] = 0x0000000F
+Memory[262] = 0x000000FF
+Memory[263] = 0x0000151A
+Memory[264] = 0x000014B6
+Memory[265] = 0x00000003
+Memory[266] = 0x00000017
+Memory[267] = 0x00000001
+Memory[268] = 0x000007E8
+ 
+--------------------------------------- assembled_tests/wordsearch.out (WITH FWD) (WITH OOO)---------------------------------------
+ 
