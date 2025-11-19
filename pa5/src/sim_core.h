@@ -1,0 +1,141 @@
+/**
+ * University of Connecticut
+ * CSE 4302 / CSE 5302 / ECE 5402: Computer Architecture
+ * Fall 2025
+ * 
+ * 
+ * DO NOT MODIFY THIS FILE
+ * 
+ */
+
+#pragma once
+
+#include <stdio.h>
+#include <stdint.h>
+
+extern FILE *fptr_pt;
+extern FILE *fptr_pt2;
+
+/* Max number of registers, and instruction length in bits */
+#define MAX_LENGTH 32
+
+#define CACHE_SIZE 256 // bytes
+#define CACHE_LINE_SIZE 16 // bytes
+
+/* Array of registers (register file) */
+extern int registers[MAX_LENGTH];
+
+/* Clock cycle */
+extern int cycle;
+
+/* Program Counter (PC) register */
+extern unsigned int pc;     // Current PC
+extern unsigned int pc_n;   // Next PC
+
+/* Microarchitechtual state */
+extern struct State fetch_out, fetch_out_n;
+extern struct State fetch2_out, fetch2_out_n;
+extern struct State decode_out, decode_out_n;
+extern struct State decode2_out, decode2_out_n;
+extern struct State ex_out, ex_out_n;
+extern struct State ld_out, ld_out_n;
+extern struct State st_out, st_out_n;
+extern struct State wb_out, wb_out_n;
+extern struct State wb_ld_out, wb_ld_out_n;
+extern struct State wb_st_out, wb_st_out_n;
+
+
+/* nop instruction, used when flushing the pipeline */
+extern const struct State nop;
+
+/* Instruction and data memory */
+extern int *memory;
+
+/* Instruction and cycle counters */
+extern int instruction_counter;
+extern int cycle;
+
+/* CPU state */
+struct State {
+     /* Fetched instruction */
+     unsigned int inst;
+     unsigned int inst_addr;
+
+     /* Decoded instruction fields */
+     unsigned int opcode;
+     unsigned int funct3;
+     unsigned int funct7;
+     unsigned int rd;
+     unsigned int rs1;
+     unsigned int rs2;
+     unsigned int imm;
+
+     /* Memory related */
+     unsigned int mem_buffer;
+     unsigned int mem_addr;
+
+     /* Branch Related */
+     unsigned int br_addr;
+     unsigned int link_addr;
+     unsigned int br_predicted; /* **NEW** from PA1 / PA2 */
+
+     /* ALU */
+     unsigned int alu_in1;
+     unsigned int alu_in2;
+     unsigned int alu_out;
+
+     /*Instruction Valid*/
+     unsigned int valid;
+
+     unsigned int age;
+
+     int cache_line_hit_way;
+
+};
+
+
+/* Pipeline related */
+extern int forwarding_enabled;
+extern int ooo_enabled;
+extern int pipe_stall1;
+extern int pipe_stall2;
+extern int j_taken;
+extern int br_mispredicted;
+extern int we_exe, ws_exe, dout_exe;
+extern int we_mem, ws_mem, dout_mem;
+extern int we_wb,  ws_wb,  dout_wb;
+extern int we_ld_wb,  ws_ld_wb,  dout_ld_wb;
+
+/* BTB Stats-related */
+extern int bp_mode;
+extern int total_branches;
+extern int correctly_predicted_branches;
+
+/* Multi-cycle operation-related */
+extern const int dmem_access_cycles;
+extern const int dcache_access_cycles;
+extern int dmem_busy;
+extern int dmem_cycles;
+
+/* Data Cache-related */
+extern int dcache_enabled;
+extern int dmem_accesses;
+extern int dcache_hits;
+
+/* Structure that defines the cache block */
+typedef struct {
+   unsigned int tag;
+   unsigned int valid;
+} CacheBlock;
+
+typedef struct {
+   CacheBlock block[2];
+   uint8_t lru_tree;
+} CacheSet_2_way;
+
+/* Allocate memory for the Data Cache*/
+extern CacheSet_2_way *dcache_2_way;
+
+
+void initialize(FILE *fp);
+void process_instructions();
