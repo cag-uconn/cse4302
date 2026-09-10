@@ -1,9 +1,9 @@
 /**
  * University of Connecticut
  * CSE 4302: Computer Architecture
- * Fall 2025
+ * Fall 2026
  * 
- * Programming Assignment 0
+ * Programming Assignment 1: NonPipelined Simulator + Data Cache
  * 
  * riscv-uconn: util.h
  * 
@@ -19,6 +19,7 @@ void rdump();
 void rdump_pt();
 void mdump();
 void mdump_modified();
+void cdump();
 void inst_dump(const char stage[], const unsigned int inst);
 void getInstStr(int op, int f3, int f7, char *buffer);
 int getDec(char *bin);

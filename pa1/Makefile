@@ -14,5 +14,11 @@ simulator: $(SRCS) $(HEADERS)
 	$(CC) $(CFLAGS) -o $@ $(SRCS) $(LDFLAGS)
 
 clean:
-	-rm -f simulator
-	-rm -f pipe_trace.txt *.out mdump.txt pa*out.txt
+	-rm -f simulator 
+	-rm -f *_trace.txt *.out mdump.txt cdump.txt pa*out.txt
+
+clean_all:
+	-rm -f simulator 
+	-rm -rd simulator.dSYM
+	-rm -f *_trace.txt *.out mdump.txt cdump.txt pa*out.txt
+	-rm -rf assembled_tests

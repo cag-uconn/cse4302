@@ -1,9 +1,9 @@
 /**
  * University of Connecticut
  * CSE 4302: Computer Architecture
- * Fall 2025
+ * Fall 2026
  * 
- * Programming Assignment 0
+ * Programming Assignment 1: NonPipelined Simulator
  * 
  * riscv-uconn: decode_fields.h
  * 

@@ -1,9 +1,9 @@
 /**
  * University of Connecticut
  * CSE 4302: Computer Architecture
- * Fall 2025
+ * Fall 2026
  * 
- * Programming Assignment 0
+ * Programming Assignment 1: NonPipelined Simulator + Data Cache
  * 
  * riscv-uconn: util.c
  * 
@@ -115,6 +115,48 @@ void mdump_modified() {
             fprintf(fptr, "Memory[%d] = 0x%08X\n", i, memory[i]);
         }
     }
+}
+
+/**
+ * Print cache information
+ */
+void cdump() {
+    FILE *fptr;
+    fptr = fopen("cdump.txt", "w");
+    int num_blocks = cache_assoc;
+    int num_sets = cache_size / (cache_line_size * cache_assoc);
+
+    /* Create the set # headers*/
+    fprintf(fptr, "%23s", "");
+    for (int i = 0; i < num_blocks; i++) {
+        fprintf(fptr, "%9s %d    ", "Block", i);
+    }
+    fprintf(fptr, "\n");
+
+    /* Create the cache line headers*/
+    fprintf(fptr, "%s  %s   ", "Set No.", "lru1 lru2 lru3");
+    for (int i = 0; i < num_blocks; i++) {
+        fprintf(fptr, "%s  %s     ", "Valid", "Tag");
+    }
+    fprintf(fptr, "\n");
+
+    /* Formatting */
+    fprintf(fptr, "%s", "-------  -------------   ");
+    for (int i = 0; i < num_blocks; i++) {
+        fprintf(fptr, "%s", "-----  ---     ");
+    }
+    fprintf(fptr, "\n");
+
+    /* Print the relevant data */
+    for (int i = 0; i < num_sets; i++) {
+        fprintf(fptr, "%7d       %d    %d    %d   ", i,
+                dcache[i].lru1, dcache[i].lru2, dcache[i].lru3);
+        for (int j = 0; j < num_blocks; j++) {
+            fprintf(fptr, "%5d  %3d     ", dcache[i].block[j].valid, dcache[i].block[j].tag);
+        }
+        fprintf(fptr, "\n");
+    }
+    fclose(fptr);
 }
 
 void inst_dump(const char stage[], const unsigned int inst) {
